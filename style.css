@@ -94,6 +94,7 @@ nav {
     justify-content: space-between; /* Aligner les éléments sur les côtés de la barre de navigation */
     align-items: center; /* Aligner les éléments verticalement au centre */
     float: left; 
+    margin: 5%;
 }
 
 nav ul {

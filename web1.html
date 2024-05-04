@@ -3,56 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Portfolio de Développeur Web</title>
+    <link rel="stylesheet" type="text/CSS" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>My Portfolio</h1>
+        <h1>Cheikh Ahmadou bamba seye</h1>
+        <div> <br></div>
         <nav>
             <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#Home">Accueil</a> </li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
                 <li><a href="#contact">Contact</a></li>
+               
             </ul>
+            <!-- -->
+           
+                <form action="#" method="GET">
+                    <input type="text" placeholder="Recherche..." name="search">
+                    <button  type="submit">Rechercher</button>
+                </form>
+           
         </nav>
     </header>
 
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Insert a brief introduction about yourself here.</p>
-            <video controls>
-                <source src="video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+        <section id="Home">
+
+            <h1> Bienvenue sur mon portfolio en ligne !</h1>
+            <p> LOREM OPIUM</p>
+           
+            <p class="pgr"> Je suis Cheikh Ahmadou bamba Seye, un développeur web passionné par la création d'expériences en ligne exceptionnelles. <br>
+             Explorez mes projets ci-dessous pour voir mes compétences en action et découvrir comment je peux vous aider à réaliser vos idées numériques.
+            </p>
+            <figure>
+                <img src="acc7.jpeg" alt="Projet 3">
+            </figure> 
         </section>
+
 
         <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="project1.html">Project 1</a></li>
-                <li><a href="project2.html">Project 2</a></li>
-                <!-- Add more projects as needed -->
-            </ul>
+            <h2>Projets</h2>
+            <!--  -->
+            <div class="project">
+               
+                
+                <h3>Portfolio en ligne</h3>
+                <p>Un site web personnel présentant mes compétences, mes projets et mon expérience. Développé avec HTML, CSS, JavaScript et intégration de médias.</p>
+                <a href="https://example.com/portfolio" target="_blank">Voir le projet</a>
+                <figure>
+                    <img src="projet2.jpg" alt="Projet 2">
+                </figure>
+            </div>
+
+            <br/>
+
+            <div class="project">
+               
+                <h3>Boutique en ligne</h3>
+                <p>Une boutique en ligne complète développée avec HTML, CSS, JavaScript pour le frontend et PHP avec MySQL pour le backend. Intégration d'une solution de paiement et gestion des commandes.</p>
+                <a href="https://example.com/shop" target="_blank">Voir le projet</a>
+                <figure>
+                    <img src="projet4.jpg" alt="Projet 1">
+                </figure>
+            </div>
+
+            <br/>
+            <div class="project">
+                
+                <h3>Blog personnel</h3>
+                <p>Un blog personnel développé avec WordPress. Personnalisation du thème, ajout de fonctionnalités personnalisées et gestion du contenu.</p>
+                <a href="https://example.com/blog" target="_blank">Voir le projet</a>
+
+                <figure>
+                    <img src="projet3.jpg" alt="Projet 3">
+                </figure>
+            </div>
+            
         </section>
 
+        
+        <section id="about">
+            <h2>À propos</h2>
+            <p>Je suis un développeur web passionné par la création de sites web dynamiques et interactifs. Je possède une solide expérience dans le développement frontend et backend, ainsi que dans la conception de bases de données.</p>
+           
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sc-25-zt0j4?si=I4tk1zGm_c_9cdG7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+      
         <section id="contact">
             <h2>Contact</h2>
-            <p>Voici le formulaire a remplir pour me contacter</p>
             <form action="contact.php" method="post">
-                <label for="name">Name:</label><br>
+                <label for="name">Nom:</label><br>
                 <input type="text" id="name" name="name" required><br>
                 <label for="email">Email:</label><br>
                 <input type="email" id="email" name="email" required><br>
                 <label for="message">Message:</label><br>
                 <textarea id="message" name="message" rows="4" required></textarea><br>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Envoyer">
             </form>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <p>&copy; 2024 Cheikh seye - Développeur Web</p>
     </footer>
 </body>
 </html>
