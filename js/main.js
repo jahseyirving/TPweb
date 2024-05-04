@@ -17,3 +17,10 @@ var person1 = {
 	isStudent: true
 }
 console.log(person1)
+
+console.log(5+2);
+// 7
+console.log(7%5);
+// 2
+console.log(5**2);
+// 25
