@@ -1,16 +1,17 @@
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
     
 }
 
 
 body {
     font-family: 'Roboto', sans-serif;
-    line-height: 1.7;
-    background-color: #f8f8f8;
+    line-height: 1.6;
+    background-color: #f8f8f873;
     color: #333;
     
 }
@@ -22,10 +23,13 @@ header {
     background-image: url('acc2.jpeg'); 
     background-size: cover; 
     background-position: center; 
+    max-height: 100%;
 }
 
 header h1 {
     margin: 0;
+    padding: 0;
+    color: #3cf4c9;
 }
 
 nav {
@@ -48,7 +52,7 @@ nav a{ /* tous les liens a à l'intérieur de la balise nav */
     float: left; /* effet flottant */
     text-decoration: none; /* pas d'héritage avec effet souligné */
     color: #ffffff; /* couleur du texte */
-    background: #000000; /* couleur de fond */
+    background: #0000006b; /* couleur de fond */
     height: 36px; /* hauteur */
     line-height: 33px; /* interligne */
     padding: 0 10px; /* marges intérieur */
@@ -93,21 +97,48 @@ nav ul li a {
 
 
 main {
-    padding: 20px;
+    padding: 5px;
+    background-color: #3cf4c900;
 }
 
 section {
     padding: auto;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+  
+    
    
+}
+.acc{
+    background-image: url('acb6.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #00000030;
+    padding: 17%;
+    margin: none;
+    
+ 
+    border: 2px rgba(183, 174, 174, 0.7) solid;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.acc h1{
+    color:rgb(41, 255, 226) ;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.acc p{
+    color: #000000;
+
 }
 
 
 .project {
-    background-color: #fff;
+    background-color: #f6f2f2;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: #000000;
 }
 
 .project h3 {
@@ -116,7 +147,7 @@ section {
 
 .project p {
     margin-bottom: 10px;
-}
+}g
 
 .project a {
     display: inline-block;
@@ -128,7 +159,7 @@ section {
 }
 
 .project a:hover {
-    background-color: #555555c4;
+    background-color: #ef2061c4;
 }
 
 .project img {
@@ -173,8 +204,9 @@ footer {
     text-align: center;
 }
 /* Ajout de bordures au formulaire */
-form {
-    border: 1px solid #524c4c;
-    padding: 20px;
-    border-radius: 5px;
+ form {
+    border: 1px solid #474343aa;
+    padding: 30px;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
