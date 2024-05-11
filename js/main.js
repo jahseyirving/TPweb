@@ -24,3 +24,31 @@ console.log(7%5);
 // 2
 console.log(5**2);
 // 25
+//concatenation
+var x = "google";
+x += "." + "com"
+console.log(x) // prints “google.com”
+var name = "Lucy";
+console.log(`Yo, ${name}!`) // prints “Yo, Lucy!”
+//fonction
+function add(a, b) {
+	return a + b;
+}
+console.log(add( 5,2)); // prints 7
+
+/////////
+// Function declaration with parameters
+function greet(name) {
+    console.log("Hello, " + name + "!");
+}
+
+// Function invocation with argument
+greet("John"); // Output: Hello, John!
+
+// Function declaration without parameters
+function sayHello() {
+    console.log("Hello, world!");
+}
+
+// Function invocation without argument
+sayHello(); // Output: Hello, world!
